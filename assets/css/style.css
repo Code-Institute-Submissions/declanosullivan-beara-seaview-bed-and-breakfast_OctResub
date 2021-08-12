@@ -1,8 +1,12 @@
-:root {
-    --blue: #6495ed;
-    --white: #faf0e6;
-  }
-  
-  body { background-color: var(--blue); }
-  
-  h2 { border-bottom: 2px solid var(--blue); }
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+}
