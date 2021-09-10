@@ -23,6 +23,7 @@ body {
   background-color: rgb(226, 242, 253);
 }
 
+
 main {
   margin: 0 2vw;
 }
@@ -63,6 +64,8 @@ li {
 a {
   text-decoration: none;
 }
+
+
 
 /* about grid styling */
 
