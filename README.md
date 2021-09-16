@@ -1,4 +1,4 @@
-
+![](assets/images/responsivepreview.png)
 # Beara Seaview Bed & Breakfast
 
 ## About Project
@@ -20,17 +20,23 @@ Yes | I want to read reviews from other visitors, 	so that I can feel a sense of
 Yes  | I want access to B&B social media profiles, 	so that I can see interactions from visitors.
 
 ### Design
-I would have liked to use the Materialize framework as it's really impressive but my skill level is not yet there. It's something I'm looking forward to 
+I would have liked to use the Materialize framework as it's really impressive but my skill level is not yet there. It's something I'm looking forward to working towards.
 
 ### Color Scheme
 
 * material.io/
 
-I found the tool material.io to be a lifesaver for me. 
+I used the tool [material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) to create a primary and secondary color palette.
+
+![](assets/images/colorpalette.png)
 
 ### Icons
 
+I used [Font Awesome](x) for the website's social media icons. 
+
 ### Typography
+
+
 
 ### Wireframes
 
@@ -41,7 +47,7 @@ I used Balsamiq to create wireframes. Below are my wireframes.
 ### Successfully Implemented Features
 * Navigation Bar
 * Smooth scroll effect
-* Maps
+* Clickable Map (which opens in Google Maps)
 
 
 ### Features Left to Implement
@@ -77,5 +83,5 @@ I used Balsamiq to create wireframes. Below are my wireframes.
 
 
 ### Acknowledgements
-I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages - Igor, Scott and Jo. 
+I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages - Igor, Scott, Jo and John. 
 
