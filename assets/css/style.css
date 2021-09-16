@@ -31,12 +31,16 @@ main {
 /* headings and logo */
 
 #logo {
-  padding-left: 20px;
+  padding: 40px 20px;
+  margin: 0;
 }
 
 header{
   background: rgb(209, 196, 233);
   margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1, h2 {
@@ -55,10 +59,8 @@ h1, h2 {
 
 li {
   display: inline;
-  float: right;
   list-style-type: none;
   margin-right: 25px;
-  padding-bottom: 25px;
 }
 
 a {
@@ -208,4 +210,26 @@ a {
   text-align: left;
   padding: 10px 0;
   font-size: 20px;
+}
+
+/*footer and social network styling*/
+
+footer {
+  height: 150px;
+  margin-top: 50px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 250%;
+  margin: 1%;
+  padding: 5%;
+  color: rgb(209, 196, 233);;
 }

@@ -8,7 +8,6 @@ The core purpose of this project is to create a website that promotes the featur
 
 ### User Stories
                     
-
 Implemented  | User Story
 ------------- | -------------
 Yes  | I need to read general description of B&B, 	so that I can compare to others in the area
@@ -41,6 +40,11 @@ I used [Font Awesome](x) for the website's social media icons.
 ### Wireframes
 
 I used Balsamiq to create wireframes. Below are my wireframes.
+
+![](assets/images/wireframe1.png)
+![](assets/images/wireframe2.png)
+![](assets/images/wireframe3.png)
+![](assets/images/wireframe4.png)
 
 ## Features
 
