@@ -124,13 +124,19 @@ Edge 93.0.961.44
 
 ### Known Bugs
 
-## Deployment
-### Local Deployment
+*No known bugs
 
-In order to make a local copy of this repos you can type the following command in your IDE terminal:
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+* In order to make a local copy of this repos you can type the following command in your IDE terminal:
 -`[git clone](https://github.com/declanosullivan/beara-seaview-bed-and-breakfast.git)`
 
--additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/Beara-Seaview-Bed-and-Breakfast)
+* Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/Beara-Seaview-Bed-and-Breakfast)
 
 ## Credits and Learning Experience
 
