@@ -89,7 +89,6 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 * [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
 
 
-
 ## Testing
 ### Validators
 
@@ -104,10 +103,13 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 ![](assets/images/cssvalidation.png)
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 > Desktop: 100 across all four categories 
+
 ![](assets/images/lighthousedesktop.png)
 
 > Mobile: I've included the full pdf report in the repository.
+
 ![](assets/images/lighthousemobile.png)
 
 
@@ -124,11 +126,17 @@ Edge 93.0.961.44
 
 ## Deployment
 ### Local Deployment
-### Remote Deployment
+
+In order to make a local copy of this repos you can type the following command in your IDE terminal:
+-`[git clone](https://github.com/declanosullivan/beara-seaview-bed-and-breakfast.git)`
+
+-additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/Beara-Seaview-Bed-and-Breakfast)
 
 ## Credits and Learning Experience
 
 ### Content
+
+Inspired by local bed and breakfast websites and the Love Runnng project.
 
 ### Media
 
