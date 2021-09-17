@@ -103,7 +103,23 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 
 ![](assets/images/cssvalidation.png)
 
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+> Desktop: 100 across all four categories 
+![](assets/images/lighthousedesktop.png)
+
+> Mobile: I've included the full pdf report in the repository.
+![](assets/images/lighthousemobile.png)
+
+
 ### Compatibility
+
+I've tested the site in the following browswers on desktop and mobile:
+
+Chrome 93.0.4577.63
+Brave 1.28.106
+Safari 14.0.3
+Edge 93.0.961.44
+
 ### Known Bugs
 
 ## Deployment
