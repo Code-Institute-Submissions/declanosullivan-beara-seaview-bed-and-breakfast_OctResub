@@ -2,7 +2,7 @@
 # Beara Seaview Bed & Breakfast
 
 ## About Project
-The core purpose of this project is to create a website that promotes the featurea and unique offerings of the Beara Searview Bed and Breakfast.
+The core purpose of this project is to create a website that promotes the featurea and unique offerings of the Beara Searview Bed and Breakfast. The building is currently underconstruction so I've used stock images until real images of the completed renovations are available. 
 
 ## UX
 
@@ -31,15 +31,19 @@ I used the tool [material.io](https://material.io/resources/color/#!/?view.left=
 
 ### Icons
 
-I used [Font Awesome](x) for the website's social media icons. 
+I used [Font Awesome](x) for the website's social media icons. Font Awesome has an incredible collection and make it straight forward to integrate their icons into a project which can then be customised to fit the design and colour scheme. I used these three icons:
+
+![](assets/images/socialmediaicons.png)
 
 ### Typography
 
+I used [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen|Ubuntu). Google Fonts website is great to choosing fonts. If you pick one, it will recommend others that pair well with your first font. I've choose Oxygeny and Ubuntu because they are clean and easy to read.
 
+![](assets/images/googlefonts.png)
 
 ### Wireframes
 
-I used Balsamiq to create wireframes. Below are my wireframes.
+I used Balsamiq to create wireframes. Wireframing helped me get from the idea stage to coding. This in between step helped me breakdown the website into features. Below are my wireframes.
 
 ![](assets/images/wireframe1.png)
 ![](assets/images/wireframe2.png)
@@ -50,12 +54,25 @@ I used Balsamiq to create wireframes. Below are my wireframes.
 
 ### Successfully Implemented Features
 * Navigation Bar
+>This makes it easy for the visitor to acces various sections of the sight. 
+![](assets/images/navigationbar.png)
+
 * Smooth scroll effect
+>This code enables smooth scrolling instead of jumping to a section. It's a nicer experience. 
+```html 
+{
+  scroll-behavior: smooth;  
+}
+```
 * Clickable Map (which opens in Google Maps)
+>The image is clickable and will open in Google maps to give full directions. 
+![](assets/images/mapsbeforeclick.png)
+![](assets/images/googlemaps.png)
+
 
 
 ### Features Left to Implement
-*
+* Calendar - showing current availabiltiy
 
 ## Libraries & Technologies Utilised
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
@@ -85,6 +102,7 @@ I used Balsamiq to create wireframes. Below are my wireframes.
 
 ### Media
 
+* Pexels - All images are stock images from this site
 
 ### Acknowledgements
 I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages - Igor, Scott, Jo and John. 
