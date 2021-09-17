@@ -69,6 +69,9 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 ![](assets/images/mapsbeforeclick.png)
 ![](assets/images/googlemaps.png)
 
+* Image gallary
+>I used CSS grid to show a selection of rooms images
+![](assets/images/imagegallery.png)
 
 
 ### Features Left to Implement
@@ -89,6 +92,17 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 
 ## Testing
 ### Validators
+
+* [HTML - W3C HTML Validator](https://validator.w3.org/)
+> Passed with no issues
+
+![](assets/images/htmlvalidation.png)
+
+* [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+> Passed with no issues
+
+![](assets/images/cssvalidation.png)
+
 ### Compatibility
 ### Known Bugs
 
