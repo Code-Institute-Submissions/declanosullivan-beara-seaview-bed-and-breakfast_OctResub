@@ -166,6 +166,10 @@ a {
   align-items: center;
 }
 
+.rate-container .table-head {
+  font-weight: 600;
+}
+
 /* directions table  styling */
 
 /* .directions-container {
