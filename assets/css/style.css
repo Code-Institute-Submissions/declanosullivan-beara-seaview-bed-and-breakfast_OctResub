@@ -146,6 +146,7 @@ a {
 
 #ratesgrid{
   border: 10px solid rgb(209, 196, 233);
+  background-color:  rgb(255, 245, 255);
   margin-bottom: 3rem;
 }
 
@@ -158,11 +159,9 @@ a {
 }
 
 .rate-container > div {
-  background-color:  rgb(255, 245, 255);
   text-align: left;
   padding: 10px;
   font-size: 15px;
-  border:1px solid rgb(209, 196, 233);
   display: flex;
   align-items: center;
 }
