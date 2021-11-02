@@ -176,14 +176,14 @@ a {
   background-color: rgb(209, 196, 233);
   padding: 20px;
   margin-bottom: 50px;
-}
+} */
 
 .grid-container > div {
   background-color:  rgb(255, 247, 255);
   text-align: left;
   padding: 10px 10px;
   font-size: 20px;
-} */
+} 
 
 /* .directions-item .image{
   width: 100%;
@@ -210,7 +210,7 @@ a {
 .reviews-container> div {
   background-color:  rgb(255, 247, 255);
   text-align: left;
-  padding: 10px 0;
+  padding: 10px 10px;
   font-size: 20px;
 }
 
