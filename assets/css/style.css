@@ -106,7 +106,8 @@ a {
 .gallery-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: rgb(209, 196, 233);
+  border: 10px solid rgb(209, 196, 233);
+  background-color:  rgb(255, 245, 255);
   grid-auto-rows: 250px;
   grid-gap: 30px;
   margin-bottom: 3rem;
@@ -125,7 +126,6 @@ a {
   height: 100%;
   overflow: hidden;
   padding: 10px;
-  background: rgb(255, 245, 255);
 }
 
 .gallery-item .image img{
