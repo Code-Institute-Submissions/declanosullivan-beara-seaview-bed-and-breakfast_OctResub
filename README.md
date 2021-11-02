@@ -1,7 +1,9 @@
 ![](assets/images/responsivepreview.png)
+
 # Beara Seaview Bed & Breakfast
 
 ## About Project
+
 The core purpose of this project is to create a website that promotes the featurea and unique offerings of the Beara Searview Bed and Breakfast. The building is currently underconstruction so I've used stock images until real images of the completed renovations are available. 
 
 ## UX
@@ -15,15 +17,14 @@ Yes  | I want access to contact details, 	so that I can contact b&b with additio
 Yes  | I want to see pictures inside and outside B&B, 	so that I can decide I like the layout and decor
 Yes  | I want quick access to rates,	so that I know quickly if the B&B fits my budget
 Yes  | I want clear driving instructions, 	so that I can get from airport to B&B easily
-Yes | I want to read reviews from other visitors, 	so that I can feel a sense of trust 
+Yes  | I want to read reviews from other visitors, 	so that I can feel a sense of trust 
 Yes  | I want access to B&B social media profiles, 	so that I can see interactions from visitors.
 
 ### Design
+
 I would have liked to use the Materialize framework as it's really impressive but my skill level is not yet there. It's something I'm looking forward to working towards.
 
 ### Color Scheme
-
-* material.io/
 
 I used the tool [material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) to create a primary and secondary color palette.
 
@@ -31,7 +32,7 @@ I used the tool [material.io](https://material.io/resources/color/#!/?view.left=
 
 ### Icons
 
-I used [Font Awesome](x) for the website's social media icons. Font Awesome has an incredible collection and make it straight forward to integrate their icons into a project which can then be customised to fit the design and colour scheme. I used these three icons:
+I used [Font Awesome](https://fontawesome.com/) for the website's social media icons. Font Awesome has an incredible collection and make it straight forward to integrate their icons into a project which can then be customised to fit the design and colour scheme. I used these three icons:
 
 ![](assets/images/socialmediaicons.png)
 
@@ -46,38 +47,63 @@ I used [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen|Ubu
 I used Balsamiq to create wireframes. Wireframing helped me get from the idea stage to coding. This in between step helped me breakdown the website into features. Below are my wireframes.
 
 ![](assets/images/wireframe1.png)
+
 ![](assets/images/wireframe2.png)
+
 ![](assets/images/wireframe3.png)
+
 ![](assets/images/wireframe4.png)
 
 ## Features
 
 ### Successfully Implemented Features
-* Navigation Bar
->This makes it easy for the visitor to acces various sections of the sight. 
-![](assets/images/navigationbar.png)
 
-* Smooth scroll effect
->This code enables smooth scrolling instead of jumping to a section. It's a nicer experience. 
+---
+
+#### **Navigation Bar**
+
+- This makes it easy for the visitor to access various sections of the sight. 
+
+> ![](assets/images/navigationbar.png)
+
+---
+
+#### **Smooth Scroll Effect**
+
+- This code enables smooth scrolling instead of jumping to a section. It's a nicer experience.
+
 ```html 
-{
+html {
   scroll-behavior: smooth;  
 }
 ```
-* Clickable Map (which opens in Google Maps)
->The image is clickable and will open in Google maps to give full directions. 
-![](assets/images/mapsbeforeclick.png)
-![](assets/images/googlemaps.png)
+
+---
+
+#### **Clickable Map (which opens in Google Maps)**
+
+- The image is clickable and will open in Google maps to give full directions. 
+
+> ![](assets/images/mapsbeforeclick.png)
+
+> ![](assets/images/googlemaps.png)
+
+---
+
 
 * Image gallary
+
 >I used CSS grid to show a selection of rooms images
+
 ![](assets/images/imagegallery.png)
 
 
 ### Features Left to Implement
+
 * Calendar - showing current availabiltiy
 
 ## Libraries & Technologies Utilised
+
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to define the appearance and presentation of the website.
 * [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
@@ -88,16 +114,18 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 * [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) - Used to select and create primary and secondary colour paletete.
 * [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
 
-
 ## Testing
+
 ### Validators
 
-* [HTML - W3C HTML Validator](https://validator.w3.org/)
+* [HTML - W3C HTML Validator](https://validator.w3.org/nu/?doc=https://declanosullivan.github.io/beara-seaview-bed-and-breakfast)
+
 > Passed with no issues
 
 ![](assets/images/htmlvalidation.png)
 
-* [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeclanosullivan.github.io%2Fbeara-seaview-bed-and-breakfast&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 > Passed with no issues
 
 ![](assets/images/cssvalidation.png)
@@ -112,31 +140,51 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 
 ![](assets/images/lighthousemobile.png)
 
+### Browser Compatibility
 
-### Compatibility
+I've tested the site in the following browsers on desktop and mobile:
 
-I've tested the site in the following browswers on desktop and mobile:
+* Chrome 93.0.4577.63
+* Brave 1.28.106
+* Safari 14.0.3
+* Edge 93.0.961.44
 
-Chrome 93.0.4577.63
-Brave 1.28.106
-Safari 14.0.3
-Edge 93.0.961.44
+### Responsiveness
+
+Insert screenshots views on desktop, tablet and mobile.
+
+### User Story Testing
+
+ User Story
+------------- 
+* I need to read general description of B&B, so that I can compare to others in the area.
+* I want access to contact details, so that I can contact b&b with additional requestions.
+* I want to see pictures inside and outside B&B, so that I can decide I like the layout and decor.
+* I want quick access to rates,	so that I know quickly if the B&B fits my budget.
+* I want clear driving instructions, so that I can get from airport to B&B easily.
+* I want to read reviews from other visitors, so that I can feel a sense of trust.
+* I want access to B&B social media profiles, so that I can see interactions from visitors.
 
 ### Known Bugs
 
-*No known bugs
+No known bugs that I'm aware of.
 
 ## Deployment
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-* In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab.
+* From the source section drop-down menu, select the Main branch.
+* Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-* In order to make a local copy of this repos you can type the following command in your IDE terminal:
--`[git clone](https://github.com/declanosullivan/beara-seaview-bed-and-breakfast.git)`
+### Local Deployment
 
-* Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/Beara-Seaview-Bed-and-Breakfast)
+In order to make a local copy of this repo, you can type the following command in your IDE terminal:
+
+- `git clone https://github.com/declanosullivan/beara-seaview-bed-and-breakfast.git`
+
+Additionally if you're using Gitpod, you can click below:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitpod.io/#https://github.com/declanosullivan/beara-seaview-bed-and-breakfast)
 
 ## Credits and Learning Experience
 
@@ -149,5 +197,5 @@ Inspired by local bed and breakfast websites and the Love Runnng project.
 * Pexels - All images are stock images from this site
 
 ### Acknowledgements
-I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages - Igor, Scott, Jo and John. 
 
+I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages - Igor, Scott, Jo and John. 
