@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap');
 
+/* Global Settings */
 * {
   margin: 0;
   padding: 0;
@@ -8,34 +9,29 @@
 }
 
 html {
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Oxygen', sans-serif;
   font-weight: 300;
   color: rgb(23, 23, 23);
-  /* display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh; */
   margin: 0;
   padding: 0;
   background-color: rgb(226, 242, 253);
 }
-
 
 main {
   margin: 0 2vw;
 }
 
 /* headings and logo */
-
 #logo {
   padding: 40px 20px;
   margin: 0;
 }
 
-header{
+header {
   background: rgb(209, 196, 233);
   margin-bottom: 3rem;
   display: flex;
@@ -51,8 +47,7 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-/* navigation links */
-
+/* Navigation links */
 #menu {
   font-size: 100%;
 }
@@ -70,10 +65,7 @@ a {
   color: rgb(10, 10, 10);
 }
 
-
-
 /* about grid styling */
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -83,74 +75,72 @@ a {
   margin-bottom: 3rem;
 }
 
-.grid-container > div {
-  background-color:  rgb(255, 245, 255);
+.grid-container>div {
+  background-color: rgb(255, 245, 255);
   text-align: left;
   padding: 10px 10px;
   font-size: 15px;
 }
 
-.about-item .image{
+.about-item .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-.about-item .image img{
+.about-item .image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
 /* photo grid styling */
-.gallery-container{
+.gallery-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 10px solid rgb(209, 196, 233);
-  background-color:  rgb(255, 245, 255);
+  background-color: rgb(255, 245, 255);
   grid-auto-rows: 250px;
   grid-gap: 5px;
   margin-bottom: 3rem;
   padding: 10px;
 }
 
-.gallery-item{
+.gallery-item {
   width: 100%;
   height: 100%;
   position: relative;
   margin-bottom: 30px;
 }
 
-.gallery-item .image{
+.gallery-item .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
   padding: 10px;
 }
 
-.gallery-item .image img{
+.gallery-item .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position:50% 50%;
+  object-position: 50% 50%;
   cursor: pointer;
   transition: .5s ease-in-out;
 }
 
-.gallery-item:hover .image img{
+.gallery-item:hover .image img {
   transform: scale(1.5);
 }
 
 /* rates table  styling */
-
-
-#ratesgrid{
+#ratesgrid {
   border: 10px solid rgb(209, 196, 233);
-  background-color:  rgb(255, 245, 255);
+  background-color: rgb(255, 245, 255);
   margin-bottom: 3rem;
 }
 
-.rate-container{
+.rate-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 20px;
@@ -158,7 +148,7 @@ a {
   padding: 20px;
 }
 
-.rate-container > div {
+.rate-container>div {
   text-align: left;
   padding: 10px;
   font-size: 15px;
@@ -171,38 +161,27 @@ a {
 }
 
 /* directions table  styling */
-
-/* .directions-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  background-color: rgb(209, 196, 233);
-  padding: 20px;
-  margin-bottom: 50px;
-} */
-
-.grid-container > div {
-  background-color:  rgb(255, 247, 255);
+.grid-container>div {
+  background-color: rgb(255, 247, 255);
   text-align: left;
   padding: 10px 10px;
   font-size: 15px;
-} 
+}
 
-.directions-item .image{
+.directions-item .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-.directions-item .image img{
+.directions-item .image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-} 
+}
 
 /* reviews table  styling */
-
-.reviews-container{
+.reviews-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
@@ -210,15 +189,14 @@ a {
   padding: 10px;
 }
 
-.reviews-container> div {
-  background-color:  rgb(255, 247, 255);
+.reviews-container>div {
+  background-color: rgb(255, 247, 255);
   text-align: left;
   padding: 10px 10px;
   font-size: 15px;
 }
 
-/*footer and social network styling*/
-
+/* footer and social network styling */
 footer {
   height: 150px;
   margin-top: 50px;
@@ -228,7 +206,7 @@ footer {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
@@ -236,31 +214,35 @@ footer {
   font-size: 250%;
   margin: 1%;
   padding: 5%;
-  color: rgb(209, 196, 233);;
+  color: rgb(209, 196, 233);
 }
 
-/*Media queries for responsiveness*/
-
+/* Media queries for 800px for tablet */
 @media all and (max-width: 800px) {
   .grid-container {
-    grid-template-columns:auto;
+    grid-template-columns: auto;
   }
-  .reviews-container{
-    grid-template-columns:auto;
+
+  .reviews-container {
+    grid-template-columns: auto;
   }
-  .gallery-container{
-    grid-template-columns:repeat(2, 1fr);
+
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
+/* Media queries for 500px* for mobile */
 @media all and (max-width: 500px) {
   .grid-container {
-    grid-template-columns:auto;
+    grid-template-columns: auto;
   }
-  .reviews-container{
-    grid-template-columns:auto;
+
+  .reviews-container {
+    grid-template-columns: auto;
   }
-  .gallery-container{
-    grid-template-columns:auto;
+
+  .gallery-container {
+    grid-template-columns: auto;
   }
 }
