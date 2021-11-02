@@ -238,3 +238,17 @@ footer {
   padding: 5%;
   color: rgb(209, 196, 233);;
 }
+
+/*Media queries for responsiveness*/
+
+@media all and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns:auto;
+  }
+  .reviews-container{
+    grid-template-columns:auto;
+  }
+  .gallery-container{
+    grid-template-columns:auto;
+  }
+}
