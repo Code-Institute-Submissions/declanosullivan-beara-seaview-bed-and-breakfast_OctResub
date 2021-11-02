@@ -241,7 +241,19 @@ footer {
 
 /*Media queries for responsiveness*/
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns:auto;
+  }
+  .reviews-container{
+    grid-template-columns:auto;
+  }
+  .gallery-container{
+    grid-template-columns:repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 500px) {
   .grid-container {
     grid-template-columns:auto;
   }
