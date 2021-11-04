@@ -145,15 +145,47 @@ html {
 I've tested the site in the following browsers on desktop and mobile:
 
 * Desktop - Chrome 95.0.4638.54
+
+![Screenshot of site on Chrome desktop browswer](assets/documentation/browsertesting/chromedesktop.png)
+
 * Mobile - Chrome 95.0.4638.50
+
+![Screenshot of site on Chrome mobile browswer](assets/documentation/browsertesting/chromemobile.png)
+
 * Desktop - Brave 1.31.87
+
+![Screenshot of site on Brave desktop browswer](assets/documentation/browsertesting/bravedesktop.png)
+
 * Mobile - Brave 1.32
+
+![Screenshot of site on Brave mobile browswer](assets/documentation/browsertesting/bravemobile.png)
+
 * Desktop - Edge 95.0.1020.30
+
+![Screenshot of site on Edge desktop browswer](assets/documentation/browsertesting/edgedesktop.png)
+
 * Mobile - Safari 15.0
+
+![Screenshot of site on Safari mobile browswer](assets/documentation/browsertesting/safarimobile.png)
 
 ### Responsiveness
 
 Insert screenshots views on desktop, tablet and mobile.
+
+* Desktop - Chrome 95.0.4638.54
+
+![Screenshot of site on Chrome desktop browswer](assets/documentation/browsertesting/chromedesktop.png)
+
+* Tablet - Chrome 95.0.4638.54 (using inspect mode on desktop)
+
+![Screenshot of site on Chrome desktop browswer](assets/documentation/browsertesting/chrometablet.png)
+
+* Mobile - Chrome 95.0.4638.50
+
+![Screenshot of site on Chrome mobile browswer](assets/documentation/browsertesting/chromemobile.png)
+
+
+
 
 ### User Story Testing
 
