@@ -192,12 +192,33 @@ Insert screenshots views on desktop, tablet and mobile.
  User Story
 ------------- 
 * I need to read general description of B&B, so that I can compare to others in the area.
+
+![Screenshot of photo section](assets/documentation/userstorytesting/aboutsection.png)
+
 * I want access to contact details, so that I can contact b&b with additional requestions.
+
+![Screenshot of contact details in about section](assets/documentation/userstorytesting/contactsection.png)
+
 * I want to see pictures inside and outside B&B, so that I can decide I like the layout and decor.
+
+![Screenshot of photo section](assets/documentation/userstorytesting/imagegallery.png)
+
 * I want quick access to rates,	so that I know quickly if the B&B fits my budget.
+
+![Screenshot of rates section](assets/documentation/userstorytesting/ratessection.png)
+
 * I want clear driving instructions, so that I can get from airport to B&B easily.
+
+![Screenshot of directions section](assets/documentation/userstorytesting/directionssection.png)
+
 * I want to read reviews from other visitors, so that I can feel a sense of trust.
-* I want access to B&B social media profiles, so that I can see interactions from visitors.
+
+![Screenshot of reviews section](assets/documentation/userstorytesting/reviewssection.png)
+
+* I want access to B&B social media profiles, so that I can see interactions from visitors
+
+![Screenshot of social media icons in footer](assets/documentation/userstorytesting/socialmediaicons.png)
+
 
 ### Known Bugs
 
