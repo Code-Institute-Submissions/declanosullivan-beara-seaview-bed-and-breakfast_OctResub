@@ -132,11 +132,11 @@ html {
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-> Desktop: 100 across all four categories 
+> Desktop (90-100 in all four categories): 
 
 ![Screenshot of lighthouse desktop report](assets/documentation/testing/lighthousedesktop.png)
 
-> Mobile: I've included the full pdf report in the repository.
+> Mobile (90-100 in all four categories):
 
 ![Screenshot of lighthouse mobile report](assets/documentation/testing/lighthousemobile.png)
 
