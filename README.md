@@ -144,10 +144,12 @@ html {
 
 I've tested the site in the following browsers on desktop and mobile:
 
-* Chrome 93.0.4577.63
-* Brave 1.28.106
-* Safari 14.0.3
-* Edge 93.0.961.44
+* Desktop - Chrome 95.0.4638.54
+* Mobile - Chrome 95.0.4638.50
+* Desktop - Brave 1.31.87
+* Mobile - Brave 1.32
+* Desktop - Edge 95.0.1020.30
+* Mobile - Safari 15.0
 
 ### Responsiveness
 
