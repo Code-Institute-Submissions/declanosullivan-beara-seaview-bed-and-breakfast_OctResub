@@ -1,4 +1,4 @@
-![](assets/images/responsivepreview.png)
+![Preview of site responsiveness](assets/documentation/wireframes/responsivepreview.png)
 
 # Beara Seaview Bed & Breakfast
 
@@ -28,31 +28,31 @@ I would have liked to use the Materialize framework as it's really impressive bu
 
 I used the tool [material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) to create a primary and secondary color palette.
 
-![](assets/images/colorpalette.png)
+![Screenshot showing color pallete](assets/documentation/wireframes/colorpalette.png)
 
 ### Icons
 
 I used [Font Awesome](https://fontawesome.com/) for the website's social media icons. Font Awesome has an incredible collection and make it straight forward to integrate their icons into a project which can then be customised to fit the design and colour scheme. I used these three icons:
 
-![](assets/images/socialmediaicons.png)
+![Screenshot showing social media icons](assets/documentation/wireframes/socialmediaicons.png)
 
 ### Typography
 
 I used [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen|Ubuntu). Google Fonts website is great to choosing fonts. If you pick one, it will recommend others that pair well with your first font. I've choose Oxygeny and Ubuntu because they are clean and easy to read.
 
-![](assets/images/googlefonts.png)
+![Screenshot showing choice of fonts](assets/documentation/wireframes/googlefonts.png)
 
 ### Wireframes
 
 I used Balsamiq to create wireframes. Wireframing helped me get from the idea stage to coding. This in between step helped me breakdown the website into features. Below are my wireframes.
 
-![](assets/images/wireframe1.png)
+![Wireframe showing about section](assets/documentation/wireframes/wireframe1.png)
 
-![](assets/images/wireframe2.png)
+![Wireframe showing room image gallery section](assets/documentation/wireframes/wireframe2.png)
 
-![](assets/images/wireframe3.png)
+![Wireframe showing rates and directions section](assets/documentation/wireframes/wireframe3.png)
 
-![](assets/images/wireframe4.png)
+![Wireframe showing reviews section](assets/documentation/wireframes/wireframe4.png)
 
 ## Features
 
@@ -64,7 +64,7 @@ I used Balsamiq to create wireframes. Wireframing helped me get from the idea st
 
 - This makes it easy for the visitor to access various sections of the sight. 
 
-> ![](assets/images/navigationbar.png)
+> ![Screenshot of navigation bar](assets/documentation/userstorytesting/navigationbar.png)
 
 ---
 
@@ -84,9 +84,9 @@ html {
 
 - The image is clickable and will open in Google maps to give full directions. 
 
-> ![](assets/images/mapsbeforeclick.png)
+> ![Screenshot of google map journey](assets/documentation/userstorytesting/mapbeforeclick.png)
 
-> ![](assets/images/googlemaps.png)
+> ![Screenshot of journey opening on google maps site](assets/documentation/userstorytesting/googlemaps.png)
 
 ---
 
@@ -95,7 +95,7 @@ html {
 
 >I used CSS grid to show a selection of rooms images
 
-![](assets/images/imagegallery.png)
+![Screenshot of image gallery feature](assets/documentation/userstorytesting/imagegallery.png)
 
 
 ### Features Left to Implement
@@ -122,23 +122,23 @@ html {
 
 > Passed with no issues
 
-![](assets/images/htmlvalidation.png)
+![Screenshot of passing HTML validator testing](assets/documentation/testing/htmlvalidation.png)
 
 * [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeclanosullivan.github.io%2Fbeara-seaview-bed-and-breakfast&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 > Passed with no issues
 
-![](assets/images/cssvalidation.png)
+![Screenshot of passing CSS validator testing](assets/documentation/testing/cssvalidation.png)
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 > Desktop: 100 across all four categories 
 
-![](assets/images/lighthousedesktop.png)
+![Screenshot of lighthouse desktop report](assets/documentation/testing/lighthousedesktop.png)
 
 > Mobile: I've included the full pdf report in the repository.
 
-![](assets/images/lighthousemobile.png)
+![Screenshot of lighthouse mobile report](assets/documentation/testing/lighthousemobile.png)
 
 ### Browser Compatibility
 
