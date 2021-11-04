@@ -198,8 +198,9 @@ a {
 
 /* footer and social network styling */
 footer {
-  height: 150px;
-  margin-top: 50px;
+  margin-top: 10rem;
+  background: rgb(209, 196, 233);
+  height: fit-content;
 }
 
 .social-networks {
@@ -214,7 +215,7 @@ footer {
   font-size: 250%;
   margin: 1%;
   padding: 5%;
-  color: rgb(209, 196, 233);
+  color: rgb(10, 10, 10);
 }
 
 /* Media queries for 800px for tablet */
